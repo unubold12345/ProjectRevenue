@@ -1,0 +1,15 @@
+# local configuration and secrets
+config.json
+.env
+.env.*
+
+# python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# logs / OS junk
+*.log
+desktop.ini
+Thumbs.db
+.DS_Store
