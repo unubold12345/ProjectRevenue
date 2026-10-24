@@ -26,29 +26,29 @@ The date-based IDs below remain the implementation record. This table is a retro
 
 ## Versions (newest first)
 
-### v2026.10.23.9 — Product version bump policy — UNCOMMITTED
+### v2026.10.23.9 — Product version bump policy — PUSHED `7757f85`
 
 **Date:** 2026-10-23 · **Product version after:** 0.8.0 (unchanged)
 
 - Documented the bump policy in `RULES.md`: a big implementation increases the product version by 0.1; fixes and small additions increase it by 0.01 (one patch step). The AI agent judges scope and prefers the smaller bump when unsure.
 - Current product maturity remains **0.8.0** until the next product-changing batch.
-- Documentation only; no compile/`--check`/GUI changes. No commit/push.
+- Documentation only; no compile/`--check`/GUI changes. Pushed in `7757f85`.
 
-### v2026.10.23.8 — Retrospective product-version judgment — UNCOMMITTED
+### v2026.10.23.8 — Retrospective product-version judgment — PUSHED `7757f85`
 
 **Date:** 2026-10-23 · **Product version after:** 0.8.0 (unchanged)
 
 - Added the retrospective product-version table above, mapping every earlier implementation batch to an effective product version from 0.2.0 through the current internal beta 0.8.0.
 - The date-based implementation IDs remain the source of truth; the product versions are judgments of maturity, not historical release tags.
-- No compile, `--check` or GUI changes; documentation only. No commit/push.
+- No compile, `--check` or GUI changes; documentation only. Pushed in `7757f85`.
 
-### v2026.10.23.7 — Versioning documentation — UNCOMMITTED
+### v2026.10.23.7 — Versioning documentation — PUSHED `7757f85`
 
 **Date:** 2026-10-23
 
 - Added `VERSION.md` covering all desktop implementations.
 - Added `RULES.md` with the versioning rule, secrets policy, backend boundary and verification commands.
-- Verification: documentation only; no compile/check needed. No commit/push.
+- Verification: documentation only; no compile/check needed. Pushed in `7757f85`.
 
 ### v2026.10.23.6 — Vercel credit/domain clarification — PUSHED `76a0ff1`
 
